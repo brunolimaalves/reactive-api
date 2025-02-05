@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: reactive-api
+  r2dbc:
+    url: r2dbc:postgresql://0.0.0.0:5431/reactive_api
+    username: admin
+    password: admin
+server:
+  port: 8000
